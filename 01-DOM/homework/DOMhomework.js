@@ -1,5 +1,7 @@
 // Crear un array vacío llamado 'toDoItems'
 // Tu codigo acá:
+//ENRIQUE LOPEZ
+//ABRIL 2022
 let toDoItems = [];
 
 // En la página 'index.html' hay un elemento span cuyo texto es 'Aplicación creada por:'.
