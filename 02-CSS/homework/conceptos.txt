@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Framework
+	* Preprocesador
+	* Responsive website
+
+FRAMEWORK.
+Es un grupo de librerias, que tienen muchas cosas que ya estan hechas
+para que nosotros hagamos las rapido y mas facil nuestros programas.
+
+PREPROCESADOR.
+Es un programa que nos permite generar codigo.
+Es decir, nosotros escribimos instrucciones de una manera y este programa le aplica
+a lo que escribimos unas reglas y da como resultado otras instrucciones que nosotros ya podemos usar en nuestras aplicaciones.
+
+RESPONSIVE WEBSITE.
+Es un sitio web que esta diseñado de tal manera que cuando la pantalla se hace chiquita es tan funcional y bonito que 
+cuando la pantalla se hace grandota. Los componentes de la aplicacion se acomodan automaticamente segun el dispositivo que estemoss usando.
+
