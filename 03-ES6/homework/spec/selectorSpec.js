@@ -77,7 +77,7 @@ describe("matchFunctionMaker", function() {
     expect(matcher(sampleDivEl)).toEqual(true);
   });
 
-  it("debería devolver un función que matchie el TAG.CLASS que devuelva FALSE si el elemento no matchea el tag", function() {
+ it("debería devolver un función que matchie el TAG.CLASS que devuelva FALSE si el elemento no matchea el tag", function() {
     var selector = "img.photo";
     var matcher = matchFunctionMaker(selector);
     var sampleEl = document.createElement("div");
