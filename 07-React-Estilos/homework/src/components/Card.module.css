@@ -1,0 +1,57 @@
+.card {
+    border:1px solid #ccc;
+    box-shadow: 3px 3px 10px #ccc;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float:left;
+    justify-content: center;
+}
+
+.divBoton {
+    width: 100%;
+    height: 40px;
+}
+.boton {
+    width:30px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    background-color: red;
+    color:white;
+    border-radius: 9999px;
+    float:right;
+    margin: 5px;
+    cursor: pointer;
+
+    color: white;
+    background-color: var(--btn-bkg-danger);
+  
+    transition: background-color 250ms;
+}
+.boton:hover {
+    background-color: var(--btn-bkg-danger-hover);
+}
+.ciudad {
+    width: 100%;
+    height: 30px;
+}
+.temperaturas {
+    width:200px;
+    height: 100px;
+    float:left;
+}
+.tbltmp  {
+    border: 1px solid  #ccc;
+    width:100%;
+    height: 100%;
+}
+.tbltmp td {
+    border: 1px solid  #ccc;
+}
+.timg {
+    width: 50px;
+    height: 50px;
+    float:left;
+}
+

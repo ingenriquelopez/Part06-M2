@@ -1,6 +1,25 @@
-import React from 'react';
+import React from "react";
+import { BiSearchAlt, BiMapPin } from "react-icons/bi";
 
-export default function SearchBar(props) {
+import style from "./SearchBar.module.css";
+
+export default function SearchBar({ onSearch }) {
   // acá va tu código
-  return <div>Search Bar Component</div>
-};
+  return (
+    <form
+      className={style.searchBar}
+      onSubmit={(e) => {
+        e.preventDefault();
+        const input = document.getElementById("cityInput");
+        onSearch(input.value);
+        input.value = "";
+      }}
+    >
+      <BiMapPin className={style.icon} />
+      <input id="cityInput" className={style.input} placeholder="City..." />
+      <button className={style.submit} type="submit">
+        <BiSearchAlt />
+      </button>
+    </form>
+  );
+}
