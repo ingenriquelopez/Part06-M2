@@ -1,0 +1,22 @@
+.forma {
+    width: 300px;
+    height:200px;
+    background-color: rgb(0,128,128);
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 10px;
+    margin-top:50px;
+}
+input,label {
+    margin-bottom:20px;
+}
+label {
+    color: white;
+}
+button {
+   justify-content: center;
+}
